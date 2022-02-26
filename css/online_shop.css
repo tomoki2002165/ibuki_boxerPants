@@ -27,3 +27,39 @@
 .ly_main_item {
     margin-bottom: 30px;
 }
+
+.bl_itemColors {
+    border: 1px solid black;
+    width: 100%;
+    padding: 2.5px 10px;
+    font-size: 12.8px;
+}
+
+.bl_itemColors_color {
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 0.9;
+    margin: 0 2.5px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+}
+
+.bl_item_colors {
+    margin-top: 30px;
+}
+
+.bl_item_addToCart {
+    margin-top: auto;
+}
+
+.bl_itemAddToCart {
+    font-size: 12px;
+    background-color: black;
+    padding: 7px;
+    color: white;
+}
+
+.bl_item_contents {
+    display: flex;
+    flex-direction: column;
+}
