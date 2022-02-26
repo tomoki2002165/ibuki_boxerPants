@@ -93,3 +93,10 @@
 .el_concept {
     font-size: 12.8px;
 }
+
+@media screen and (max-width: 600px) {
+/* Layout */
+    .ly_wrapper {
+        height: 100vh;
+    }
+}
