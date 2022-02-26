@@ -1,12 +1,10 @@
 $(function(){
     //HTMLを読み込んだらここに書いたことを実行します。
-    $(".js-nav_links li").hover(function() {
+    $(".js_nav_links li").hover(function() {
         $(this).css('background-color', 'black')
-        $(this).css('color', 'white')
     },
     function() {
         $(this).css('background-color', 'transparent')
-        $(this).css('color', 'black')
     })
 
     $('a.js_list').click(function() {
